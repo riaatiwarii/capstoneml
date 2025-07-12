@@ -10,4 +10,4 @@ if __name__ == "__main__":
     train_arr, test_arr, _ = transformer.initiate_data_transformation(train_data, test_data)
 
     trainer = ModelTrainer()
-    print("Model R2 Score:", trainer.initiate_model_trainer(train_arr, test_arr))
+    print("R2_socre : ",trainer.initiate_model_trainer(train_arr, test_arr))
