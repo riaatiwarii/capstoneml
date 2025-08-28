@@ -42,5 +42,5 @@ def predict_datapoint():
 
 if __name__ == "__main__":
     import os
-    port = int(os.environ.get("PORT", 5000))  # Azure provides the actual port
+    port = int(os.environ.get("PORT", 8000))  # Azure provides the actual port
     app.run(host="0.0.0.0", port=port)
