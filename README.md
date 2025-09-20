@@ -23,21 +23,21 @@ It is built with **Python, Flask, Scikit-learn, and Streamlit** for development 
 ##  Project Structure  
 
 capstoneml/
-│── .ebextensions/        # AWS Elastic Beanstalk configs
-│── .github/workflows/    # GitHub Actions for CI/CD
-│── .vscode/              # VS Code settings
-│── artifacts/            # Trained models, transformers, and metadata
-│── catboost_info/        # CatBoost training logs and info
-│── notebook/             # Jupyter notebooks (EDA, experiments, ingestion)
-│── src/                  # Source code: pipelines, training, prediction
-│── static/               # Static files (CSS, JS, assets for Flask app)
-│── templates/            # HTML templates for Flask frontend
-│── app.py                # Flask application entrypoint
-│── requirements.txt      # Dependencies
-│── runtime.txt           # Runtime environment (for Azure deployment)
-│── setup.py              # Package setup file
-│── README.md             # Project documentation
-│── .gitignore            # Git ignore rules
+- .ebextensions/        # AWS Elastic Beanstalk configs
+- .github/workflows/    # GitHub Actions for CI/CD
+-  vscode/              # VS Code settings
+-  artifacts/            # Trained models, transformers, and metadata
+-  catboost_info/        # CatBoost training logs and info
+-  notebook/             # Jupyter notebooks (EDA, experiments, ingestion)
+-  src/                  # Source code: pipelines, training, prediction
+-  static/               # Static files (CSS, JS, assets for Flask app)
+-  templates/            # HTML templates for Flask frontend
+-  app.py                # Flask application entrypoint
+-  requirements.txt      # Dependencies
+-  runtime.txt           # Runtime environment (for Azure deployment)
+-  setup.py              # Package setup file
+-  README.md             # Project documentation
+-  .gitignore            # Git ignore rules
 
 
 
